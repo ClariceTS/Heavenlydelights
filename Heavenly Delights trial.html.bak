@@ -1,0 +1,121 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>HEAVENLY DELIGHTS</title>
+</head>
+<style>
+body{  
+      background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  background-attachment: fixed;
+]
+</style>
+<body TEXT="ORANGE" background="img_background.jpg">
+ 
+ <h3>HEAVENLY DELIGHTS</h3>
+ <H2>CONTACT NUMBER:067 298 5969/ 065 972 4836</H2>
+
+<p>ALL PRODUCTS ARE UNFRIED, EXCEPT PURTHAS.PLATTERS ARE DONE ON REQUEST.</p>
+
+<image src ="HEAVENLY DELIGHTS MENU" align="RIGHT" border="1" width="300">
+
+<form action="mailto:claricekellen30@gmail.com" method="POST">
+SAMOOSA:</br >
+<input list="SAMOOSA FILLING" name="SAMOOSA FILLING" placeholder="samoosa filling"></br >
+<datalist id="SAMOOSA FILLING">
+<option value="CHICKEN @ R45">
+<option value="SWEETCORN @ R40">
+<option value="POTATO @ R40">
+<option value="TINFISH @ R45">
+<option value="MUTTON @ R45">
+</datalist>
+
+QUANTITY(DOZEN):</br >
+<input list="DOZEN" name="DOZEN" placeholder="dozen">
+<datalist id="DOZEN">
+<option value="2">
+<option value="3">
+<option value="4">
+<option value="5">
+<option value="6">
+</datalist></br ></br >
+
+PURI PATHA @ R45.00:</br >
+<input list="PURI PATHA" name="PURI PATHA" placeholder="puri patha"></br >
+<datalist id="PURI PATHA">
+<option value="1 DOZEN">
+<option value="2 DOZEN">
+<option value="3 DOZEN">
+<option value="4 DOZEN">
+<option value="5 DOZEN">
+</datalist>
+
+PATHA ROLLS @ R35.00:</br >
+<input list="DOZEN PATHA ROLLS" name="DOZEN PATHA ROLLS"  placeholder="patha rolls>
+<datalist id="DOZEN PATHA ROLLS">
+<option value="2">
+<option value="3">
+<option value="4">
+<option value="5">
+<option value="6">
+</datalist></br ></br >
+
+<table width="450px">
+</tr>
+<tr>
+<td>
+<label for="first_name">First Name</label>
+</td>
+<td>
+<input type="text" name="first name" placeholder="NAME" maxlength="50" size="30">
+</td>
+</tr>
+<tr>
+<td>
+<label for="last_name">Last Name</label>
+</td>
+<td>
+<input type="text" name="last name" placeholder="last NAME"  maxlength="50" size="30">
+</td>
+</tr>
+<tr>
+<td>
+<label for="email">Email Address</label>
+</td>
+<td>
+<input type="text" name="email"  placeholder="email" maxlength="80" size="30">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label for="telephone">Telephone Number</label>
+</td>
+<td>
+<input type="text" name="telephone"  placeholder="number" maxlength="30" size="30">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="comments">REQUESTS/NOTES/DELIVERY DATE</label>
+</td>
+<td>
+<textarea name="comments" placeholder="comments" maxlength="1000" cols="25" rows="6"></textarea>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" style="text-align:center">
+<input type=submit value=Submit>
+</td>
+</tr>
+
+
+</table>
+</form>
+
+</body>
+</html>
